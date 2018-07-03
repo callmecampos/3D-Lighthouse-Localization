@@ -1,9 +1,7 @@
 enum State {
-  PreSync, Sync,
-  PreVert, PreHoriz,
-  Vert, Horiz,
-  Waiting, Hit
+  PreSync, PreVert, PreHoriz,
+  Sync, Vert, Horiz,
 };
 
-void start();
-void finish();
+void rising();
+void falling();
